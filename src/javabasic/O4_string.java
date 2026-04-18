@@ -1,3 +1,5 @@
+package javabasic;
+
 public class O4_string {
     public static void main(String[] args){
         //String类

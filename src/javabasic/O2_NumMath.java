@@ -1,3 +1,5 @@
+package javabasic;
+
 public class O2_NumMath {
     public static void main(String[] args) {
         //包装类学习,number类

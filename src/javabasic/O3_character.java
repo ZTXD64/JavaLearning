@@ -1,3 +1,5 @@
+package javabasic;
+
 public class O3_character {
     public static void main(String[] args) {
 

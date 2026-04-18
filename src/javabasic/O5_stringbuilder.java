@@ -1,3 +1,5 @@
+package javabasic;
+
 public class O5_stringbuilder {
     public static void main(String[] args){
         //在使用 StringBuffer 类时，每次都会对 StringBuffer 对象本身进行操作，而不是生成新的对象，所以如果需要对字符串进行修改推荐使用 StringBuffer。

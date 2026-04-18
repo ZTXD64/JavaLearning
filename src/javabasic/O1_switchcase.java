@@ -1,3 +1,5 @@
+package javabasic;
+
 import java.util.Scanner;
 
 public class O1_switchcase {

@@ -1,3 +1,5 @@
+package javabasic;
+
 import java.util.Scanner;
 
 public class O9_class {

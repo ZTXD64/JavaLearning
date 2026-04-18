@@ -1,5 +1,6 @@
+package javabasic;
+
 import java.util.regex.Pattern;
-import java.util.regex.*;
 
 public class O8_zhengze {
     public static void main(String[] args) {

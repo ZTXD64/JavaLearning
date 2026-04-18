@@ -1,3 +1,5 @@
+package javabasic;
+
 public class O6_java_array {
     public static void main(String[] args) {
         //声明数组变量
