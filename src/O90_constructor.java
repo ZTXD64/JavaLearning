@@ -1,4 +1,4 @@
-public class O10_constructor {
+public class O90_constructor {
     public static void main(String[] args) {
         //在 Java 中，构造方法（Constructor）是用于创建类的对象的特殊方法。
 
