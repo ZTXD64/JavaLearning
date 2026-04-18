@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-public class switchcase {
+public class O1_switchcase {
     public static void main(String[] args) {
 //        60分以下为不及格，60-89为良好，90-100为优秀。使用switchcase
 
