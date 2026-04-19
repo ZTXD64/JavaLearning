@@ -1,4 +1,4 @@
-package homework.test1;
+package homework.shiyan.test1;
 
 import java.util.Random;
 import java.util.Scanner;

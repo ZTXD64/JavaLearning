@@ -1,3 +1,5 @@
+package homework.shiyan.test1;
+
 import java.util.Scanner;
 
 public class T4 {
