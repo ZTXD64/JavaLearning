@@ -21,5 +21,9 @@ public class Test {
 
         System.out.println(ztxd.name+",年龄"+ztxd.age+",主教科目："+ztxd.subject);
         ztxd.teaching();
+
+
+        //继承的特点，只能单继承，不能多继承，但是可以多层继承。孙->爷：间接父类
+        //顶级父类Object，所有类直接或者间接继承父类
     }
 }
