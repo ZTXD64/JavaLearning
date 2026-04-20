@@ -1,4 +1,4 @@
-package Object_Oriented.inherit;
+package Object_Oriented.inherit.成员方法成员变量的特点;
 
 
 //通过extends继承父类Person里面的name，age属性和eat方法
