@@ -1,4 +1,4 @@
-package inherit;
+package Object_Oriented.inherit;
 
 
 //通过extends继承父类Person里面的name，age属性和eat方法

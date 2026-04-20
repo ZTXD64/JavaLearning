@@ -1,4 +1,4 @@
-package inherit;
+package Object_Oriented.inherit;
 
 public class Person {
     String name;

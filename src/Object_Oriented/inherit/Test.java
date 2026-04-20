@@ -1,4 +1,4 @@
-package inherit;
+package Object_Oriented.inherit;
 
 public class Test {
     public static void main(String[] args) {

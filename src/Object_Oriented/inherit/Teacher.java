@@ -1,4 +1,4 @@
-package inherit;
+package Object_Oriented.inherit;
 
 public class Teacher extends Person{
     String subject;
