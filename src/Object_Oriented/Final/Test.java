@@ -27,7 +27,7 @@ public class Test {
 
         //可以看到，即使final了引用变量stu1，但是我们仍旧改变了stu1对象
 
-//        stu1 = new Student("ztxd",20);  此时却不行了，这是因为改变了stu1引用数据类型的内存地址
+        //stu1 = new Student("ztxd",20);  此时却不行了，这是因为改变了stu1引用数据类型的内存地址
 
 
     }

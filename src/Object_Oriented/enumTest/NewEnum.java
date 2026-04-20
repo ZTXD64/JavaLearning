@@ -16,8 +16,8 @@ public enum NewEnum {
 
 
 
-
-    private String name;
+    //枚举类中不能直接声明非静态字段：枚举类的字段必须是常量（static final）或者是枚举实例的一部分
+    final private String name;
 
 
     //全参构造，枚举不让外界构造新对象，所以私有化
@@ -35,6 +35,8 @@ public enum NewEnum {
 //    }
 
     public String getName() {
+
         return name;
     }
 }
+

@@ -32,8 +32,31 @@ public class Test {
         }
 
         System.out.println("_________________________________________");
+
         NewEnum s1name = NewEnum.valueOf("Student2");
         System.out.println(s1name.getName());
+
+
+
+        System.out.println("_________________________________________");
+        newTeacher b = newTeacher.teacher1;
+        System.out.println(b.getName());
+
+        newTeacher[] allt = newTeacher.values();
+
+        for (newTeacher tea: allt) {
+            System.out.println(tea.getName());
+        }
+
+
+        //为什么要用valueOf()??????
+//        String input = "Student2";  // 来自用户输入
+//        NewEnum e = NewEnum.valueOf(input);  // 一行搞定！
+//        System.out.println(e.getName());  // yz00
+
+        newTeacher t3 = newTeacher.valueOf("teacher4");
+        System.out.println(t3.getName());
+
 
     }
 }
