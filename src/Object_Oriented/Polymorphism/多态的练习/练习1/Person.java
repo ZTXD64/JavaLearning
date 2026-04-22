@@ -1,0 +1,56 @@
+package Object_Oriented.Polymorphism.多态的练习.练习1;
+
+public class Person {
+    private String name;
+    private int age;
+    private String gender;
+
+    public Person() {
+
+    }
+
+    public Person(String name, int age, String gender) {
+        this.name = name;
+        this.age = age;
+        this.gender = gender;
+    }
+
+    public String getName() {
+        return name;
+    }
+
+    public void setName(String name) {
+        this.name = name;
+    }
+
+    public int getAge() {
+        return age;
+    }
+
+    public void setAge(int age) {
+        this.age = age;
+    }
+
+    public String getGender() {
+        return gender;
+    }
+
+    public void setGender(String gender) {
+        this.gender = gender;
+    }
+
+    public void drive(Vehicles v) {
+        v.move();
+
+        if (v instanceof Car) {
+            Car c = (Car)v;
+            c.honk();
+        } else if (v instanceof Bike) {
+            Bike b = (Bike)v;
+            b.ringBell();
+        } else {
+            System.out.println("没有这个类型");
+        }
+
+    }
+}
