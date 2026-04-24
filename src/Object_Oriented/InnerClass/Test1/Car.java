@@ -1,4 +1,4 @@
-package Object_Oriented.InnerClass;
+package Object_Oriented.InnerClass.Test1;
 
 public class Car {
     //汽车的品牌，车龄，颜色，发动机的品牌，使用年限
