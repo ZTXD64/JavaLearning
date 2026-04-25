@@ -13,6 +13,7 @@ public class Practice2 {
 
 
         //先输入一个数字
+        System.out.println("请输入一个整数：");
         int a;
         Scanner sc = new Scanner(System.in);
         a = sc.nextInt();
