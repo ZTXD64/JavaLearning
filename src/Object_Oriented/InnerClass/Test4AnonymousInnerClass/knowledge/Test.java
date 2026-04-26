@@ -63,6 +63,18 @@ public class Test {
         };
         goSwim(s);
 
+        //匿名内部类
+        //goSwim方法需要一个Swim接口的实现类对象，所以我要new一个对象，但是Swim是一个接口，所以需要Swim的实现类对象
+        //由于Swim接口中有一个抽象方法，所以我需要重写swim抽象方法
+        goSwim(
+                new Swim() {
+                    @Override
+                    public void swim() {
+                        System.out.println("学生在游泳");
+                    }
+                }
+        );
+
 
 
         //传统方法调用goSwim
