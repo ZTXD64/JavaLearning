@@ -6,6 +6,8 @@ import java.util.Set;
 public class Set_Collection_hashSet_Deduplication {
     static void main() {
 
+        //去重，详见Student类
+
         Student s1 = new Student("张三",19,"北京");
         Student s2 = new Student("张三",19,"北京");
         Student s3 = new Student("李四",19,"北京");
